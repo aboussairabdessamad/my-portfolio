@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Battambang:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belgrano:wght@400&display=swap");
+@font-face {
+  font-family: "Kristen ITC";
+  src: url("/public/ITCKRIST.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Ink Free";
+  src: url("/public/Inkfree.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gabriola";
+  src: url("/public/Gabriola.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Franklin Gothic Heavy";
+  src: url("/public/FRAHV.TTF");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Bahnschrift";
+  src: url("/public/Bahnschrift Regular.ttf");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-bahnschrift: Bahnschrift;
+  --font-franklin-gothic-heavy: "Franklin Gothic Heavy";
+  --font-gabriola: Gabriola;
+  --font-ink-free: "Ink Free";
+  --font-kristen-itc: "Kristen ITC";
+  --font-battambang: Battambang;
+  --font-belgrano: Belgrano;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-29xl: 48px;
+  --font-size-smi: 13px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-blueviolet: #8407e7;
+  --color-gray-100: #202020;
+  --color-black: #000;
+}

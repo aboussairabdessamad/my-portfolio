@@ -1,0 +1,363 @@
+.copy11,
+.desktop1Child {
+  position: absolute;
+  top: 585px;
+  left: 0;
+  width: 1440px;
+  height: 439px;
+}
+.desktop1Child {
+  background-color: #2c2727;
+}
+.copy11 {
+  object-fit: cover;
+}
+.desktop1Inner,
+.desktop1Item,
+.rectangleDiv {
+  position: absolute;
+  top: 766px;
+  left: 280px;
+  background-color: var(--color-gray-100);
+  width: 892px;
+  height: 106px;
+}
+.desktop1Inner,
+.rectangleDiv {
+  top: 902px;
+}
+.rectangleDiv {
+  top: 112px;
+  left: 1002px;
+  background-color: var(--color-white);
+  width: 207px;
+  height: 50px;
+}
+.home {
+  position: absolute;
+  top: 34px;
+  left: 575px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 49px;
+  height: 19px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.aboutMe {
+  left: 706px;
+}
+.aboutMe,
+.cv,
+.eng {
+  position: absolute;
+  top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 19px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.eng {
+  left: 1150px;
+  font-family: var(--font-belgrano);
+  mix-blend-mode: normal;
+}
+.cv {
+  left: 858px;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2 {
+  position: absolute;
+  height: 1.76%;
+  width: 1.25%;
+  top: 3.42%;
+  right: 5.63%;
+  bottom: 94.82%;
+  left: 93.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1,
+.vectorIcon2 {
+  height: 1.86%;
+  width: 0.64%;
+  top: 28.52%;
+  right: 2.28%;
+  bottom: 69.63%;
+  left: 97.08%;
+}
+.vectorIcon2 {
+  height: 2.22%;
+  width: 1.62%;
+  top: 32.03%;
+  right: 1.78%;
+  bottom: 65.75%;
+  left: 96.6%;
+}
+.span {
+  font-size: 96px;
+  color: #b5b5b5;
+}
+.hi {
+  margin: 0;
+}
+.im {
+  color: var(--color-black);
+}
+.imAbdessamadAboussair {
+  margin: 0;
+  color: var(--color-blueviolet);
+}
+.hiImAbdessamadContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.aa,
+.hiImAbdessamadContainer {
+  position: absolute;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.hiImAbdessamadContainer {
+  top: 114px;
+  left: 95px;
+  font-family: var(--font-kristen-itc);
+  width: 679px;
+  height: 221px;
+  font-size: var(--font-size-29xl);
+}
+.aa {
+  top: 24px;
+  left: 110px;
+  font-size: 36px;
+  font-family: var(--font-ink-free);
+  width: 95px;
+  height: 44px;
+}
+.vectorIcon3 {
+  position: absolute;
+  width: 1.6%;
+  top: calc(50% - 260px);
+  right: 1.81%;
+  left: 96.6%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 22.99px;
+}
+.webDeveloper {
+  position: absolute;
+  top: 303px;
+  left: 201px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-gabriola);
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 303px;
+  height: 65px;
+}
+.desktop1Child1 {
+  position: absolute;
+  top: 405px;
+  left: 115px;
+  border-radius: 30px;
+  background-color: var(--color-blueviolet);
+  width: 222px;
+  height: 52px;
+}
+.getInTouch,
+.helloThereMy {
+  position: absolute;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+}
+.getInTouch {
+  top: 416px;
+  left: 141px;
+  font-size: 19px;
+  font-family: var(--font-franklin-gothic-heavy);
+  text-align: left;
+  width: 145px;
+  height: 30px;
+}
+.helloThereMy {
+  top: 750px;
+  left: 349px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-bahnschrift);
+  justify-content: center;
+  width: 787px;
+  height: 182px;
+}
+.desktop1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-battambang);
+}
+
+/* modifications */
+/* Center the modal */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* Style the modal content */
+.modalContent {
+  position: relative;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Style the form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+button[type="submit"]:active {
+  background-color: #0062cc;
+}
+/*style the cv image */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+}
+
+.cvImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*------------TEST ------------------- */
+.cvModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+
+.cvModal img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cvModal h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.cvModal p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.cvModal ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cvModal ul li {
+  margin-bottom: 10px;
+}
+
+.cvModal a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.cvModal a:hover {
+  color: #0056b3;
+}
