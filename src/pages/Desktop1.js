@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
 import styles from "./Desktop1.module.css";
 import cvImage from "./cv.jpg";
-import { google } from "googleapis";
-import { Buffer } from "buffer";
-globalThis.Buffer = Buffer;
+// import { google } from "googleapis";
+// import { Buffer } from "buffer";
+// globalThis.Buffer = Buffer;
 
 const OAuth2 = google.auth.OAuth2;
 
